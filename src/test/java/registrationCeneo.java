@@ -14,7 +14,7 @@ public class registrationCeneo {
     boolean isElementPresent;
     @Before
     public void setUp() {
-        System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
     }
